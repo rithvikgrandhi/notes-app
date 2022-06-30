@@ -12,6 +12,8 @@ const Search = ({ handleSearchNote }) => {
 				type='text'
 				placeholder='type to search...'
 			/>
+		<br/>
+		<br/>
 		</div>
 	);
 };

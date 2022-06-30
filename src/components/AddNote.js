@@ -30,7 +30,7 @@ const AddNote = ({ handleAddNote }) => {
 			></textarea>
 			<div className='note-footer'>
 				<small>
-					{characterLimit - noteText.length} Remaining
+					{characterLimit - noteText.length}/200
 				</small>
 				<button className='save' onClick={handleSaveClick}>
 					Save

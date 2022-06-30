@@ -45,13 +45,13 @@ code {
 }
 
 .note.new {
-	background-color: #67d7cc;
+	background-color: #5aea96;
 }
 
 textarea {
 	border: none;
 	resize: none;
-	background-color: #67d7cc;
+	background-color:  #5aea96;
 }
 
 textarea:focus {
@@ -59,7 +59,7 @@ textarea:focus {
 }
 
 .save {
-  background-color: #67d7cc;
+  background-color:  #5aea96;
 
 	border: none;
 	border-radius: 15px;
@@ -109,4 +109,17 @@ textarea:focus {
 
 .search input:focus {
 	outline: none;
+}
+.toggle{
+	border: none;
+	color: black;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	padding: 10px;
+	cursor: pointer;
+}
+.toggle:hover{
+	background-color: #0a0909;
+	color: white;
+	cursor: pointer;
 }
