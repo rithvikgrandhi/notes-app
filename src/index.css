@@ -80,6 +80,7 @@ textarea:focus {
 	flex-direction: column;
 	justify-content: space-between;
 	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 
 .note-footer {
